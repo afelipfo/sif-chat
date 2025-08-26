@@ -1,0 +1,14 @@
+name: sif-chatbot
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - gradio
+      - requests
+      - pandas
+      - numpy
+      - scikit-learn
+      - openpyxl
+      - python-dotenv
